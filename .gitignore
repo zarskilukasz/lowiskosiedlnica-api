@@ -83,6 +83,7 @@ nbproject
 public/uploads/*
 !public/uploads/.gitkeep
 deploy.sh
+data.db
 
 ############################
 # Node.js
