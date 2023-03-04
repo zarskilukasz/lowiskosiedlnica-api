@@ -4,8 +4,7 @@
   "info": {
     "singularName": "price",
     "pluralName": "prices",
-    "displayName": "Price",
-    "description": ""
+    "displayName": "Price"
   },
   "options": {
     "draftAndPublish": true
@@ -15,8 +14,11 @@
     "title": {
       "type": "string"
     },
+    "info": {
+      "type": "string"
+    },
     "description": {
-      "type": "richtext"
+      "type": "string"
     }
   }
 }

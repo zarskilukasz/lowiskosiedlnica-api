@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "landings",
+  "info": {
+    "singularName": "landing",
+    "pluralName": "landings",
+    "displayName": "Landing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "newsTitle": {
+      "type": "string"
+    },
+    "newsDescription": {
+      "type": "richtext"
+    },
+    "locationTitle": {
+      "type": "string"
+    },
+    "locationDescription": {
+      "type": "richtext"
+    },
+    "specifictyTitle": {
+      "type": "string"
+    },
+    "specifictyDescription": {
+      "type": "richtext"
+    },
+    "priceTitle": {
+      "type": "string"
+    },
+    "priceFooter": {
+      "type": "string"
+    },
+    "offerTitle": {
+      "type": "string"
+    },
+    "offerHeader": {
+      "type": "string"
+    },
+    "offerList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "offer-list.offer"
+    },
+    "contactTitle": {
+      "type": "string"
+    },
+    "contactDescription": {
+      "type": "string"
+    },
+    "prices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::price.price"
+    }
+  }
+}
