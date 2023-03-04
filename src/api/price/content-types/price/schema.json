@@ -14,11 +14,14 @@
     "title": {
       "type": "string"
     },
-    "info": {
+    "hours": {
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "price.item"
     }
   }
 }

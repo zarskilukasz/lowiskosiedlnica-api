@@ -1,12 +1,13 @@
 {
   "collectionName": "components_offer_list_offers",
   "info": {
-    "displayName": "Offer"
+    "displayName": "Item",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "offerItem": {
-      "type": "string"
+    "description": {
+      "type": "text"
     }
   }
 }

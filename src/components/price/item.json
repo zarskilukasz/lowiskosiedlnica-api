@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_price_items",
+  "info": {
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -45,7 +45,7 @@
     "offerList": {
       "type": "component",
       "repeatable": true,
-      "component": "offer-list.offer"
+      "component": "offer.offer"
     },
     "contactTitle": {
       "type": "string"
@@ -57,6 +57,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::price.price"
+    },
+    "offerFooter": {
+      "type": "text"
     }
   }
 }
