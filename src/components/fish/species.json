@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_fish_species",
+  "info": {
+    "displayName": "Species"
+  },
+  "options": {},
+  "attributes": {
+    "species": {
+      "type": "enumeration",
+      "enum": [
+        "Amur",
+        "Karp",
+        "Karaś",
+        "Lin",
+        "Leszcz",
+        "Okoń"
+      ],
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "weight": {
+      "type": "decimal",
+      "required": true,
+      "max": 40
+    }
+  }
+}

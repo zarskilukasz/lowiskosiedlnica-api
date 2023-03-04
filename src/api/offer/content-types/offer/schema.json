@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "prices",
+  "kind": "singleType",
+  "collectionName": "offers",
   "info": {
-    "singularName": "price",
-    "pluralName": "prices",
-    "displayName": "Price",
-    "description": ""
+    "singularName": "offer",
+    "pluralName": "offers",
+    "displayName": "Offer"
   },
   "options": {
     "draftAndPublish": true
