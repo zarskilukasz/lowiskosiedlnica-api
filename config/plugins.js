@@ -11,8 +11,8 @@ module.exports = ({ env }) => ({
         },
       },
       settings: {
-        defaultFrom: 'lukas.zarski@gmail.com',
-        defaultReplyTo: 'lukas.zarski@gmail.com',
+        defaultFrom: 'mailer@whitecat.ssd-linuxpl.com',
+        defaultReplyTo: 'mailer@whitecat.ssd-linuxpl.com',
       },
     },
   },
