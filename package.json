@@ -17,6 +17,7 @@
     "@strapi/provider-upload-local": "^4.7.1",
     "@strapi/strapi": "4.7.1",
     "better-sqlite3": "8.0.1",
+    "sharp": "^0.31.3",
     "strapi-plugin-responsive-image": "^1.0.1"
   },
   "author": {

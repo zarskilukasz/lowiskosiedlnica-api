@@ -7,5 +7,5 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
-  url: env('','https://lowiskosiedlnica-api.gdzienaryby.com.pl'),
+  // url: env('','https://lowiskosiedlnica-api.gdzienaryby.com.pl'),
 });
