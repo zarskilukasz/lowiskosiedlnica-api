@@ -18,11 +18,11 @@ module.exports = ({ env }) => ({
   },
   upload: {
     config: {
-      provider: 'local',
       providerOptions: {
-        sizeLimit: 250 * 1024 * 1024 // 256mb in bytes
+        localServer: {
+          maxage: 200 * 1024 * 1024
+        },
       },
-      sizeLimit: 250 * 1024 * 1024 // 256mb in bytes
     },
   },
 });
